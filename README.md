@@ -1,34 +1,34 @@
-Lane Detection
+#Lane Detection
 
-Overview
+##Overview
 
 This repository contains a Python script for lane detection in a video using OpenCV. The script processes a video file, detects lane lines, and displays the result in real-time. Key computer vision techniques like Region of Interest (ROI) selection, dilation, grayscale conversion, thresholding, Canny edge detection, and Hough Transform are used.
 
-Features
+##Features
 
-Select and crop a Region of Interest (ROI) for lane detection.
+1.Select and crop a Region of Interest (ROI) for lane detection.
 
-Detect white lane lines based on pixel intensity.
+2.Detect white lane lines based on pixel intensity.
 
-Apply Canny edge detection and Hough Transform to identify lane lines.
+3.Apply Canny edge detection and Hough Transform to identify lane lines.
 
-Display the detected lane lines over the original video.
+4.Display the detected lane lines over the original video.
 
-Requirements
+##Requirements
 
 To run this script, ensure you have the following installed:
 
-Python 3.x
+1.Python 3.x
 
-OpenCV (cv2)
+2.OpenCV (cv2)
 
-NumPy
+3.NumPy
 
 You can install the required libraries using:
 
 pip install opencv-python-headless numpy
 
-How to Use
+##How to Use
 
 1.Clone the Repository:
 
